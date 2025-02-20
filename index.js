@@ -21,7 +21,7 @@ if(player === computer){
 return "It's a tie 🤝"
 }
 
-if (player === "rock" && computer === "scissors" || 
+else if (player === "rock" && computer === "scissors" || 
 player === "paper" && computer === "rock" ||
 player === "scissors" && computer === "paper")
 {
